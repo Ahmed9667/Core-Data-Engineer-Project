@@ -61,9 +61,9 @@ mkdir -p $GOLD_DIR
 cp "$TRANSFORMED_DIR/$OUTPUT_FILE" "$GOLD_DIR/"
 
 if [ -f "$GOLD_DIR/$OUTPUT_FILE" ]; then
-    echo "✅ File successfully loaded into $GOLD_DIR/"
+    echo "File successfully loaded into $GOLD_DIR/"
 else
-    echo "❌ Error: File not loaded into $GOLD_DIR/"
+    echo "Error: File not loaded into $GOLD_DIR/"
     exit 1
 fi
 
