@@ -3,7 +3,7 @@
 ### Step 3: Load (save transformed file into gold/)
 ### Step 4: Move all CSV/JSON files into json_and_CSV/
 
-#### #nvironmental Variables
+##### Environmental Variables
 
 ```python
 RAW_DIR="raw"
