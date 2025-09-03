@@ -92,7 +92,7 @@ crontab -e
 
 - Add
 ```python
-0 0 * * * /bin/bash /home/ahly/CoreDataEngineers/git_linux/etl_finance.sh >> /home/ahly/CoreDataEngineers/git_linux/logs/etl_log.txt 2>&1
+0 0 * * * /bin/bash/home/ahly/CoreDataEngineers/git_linux/etl_finance.sh >> /home/ahly/CoreDataEngineers/git_linux/logs/etl_log.txt 2>&1
 ```
 # =====================================
 
