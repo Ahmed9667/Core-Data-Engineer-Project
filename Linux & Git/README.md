@@ -3,18 +3,7 @@
 ### Step 1: Extract (save raw CSV file into raw/)
 ### Step 2: Transform (rename column, select columns)
 ### Step 3: Load (save transformed file into gold/)
-### Step 4: Move all CSV/JSON files into json_and_CSV/
-
-##### Environmental Variables
-
-```python
-RAW_DIR="raw"
-TRANSFORMED_DIR="transformed"
-GOLD_DIR="gold"
-TARGET_DIR="json_and_CSV"
-INPUT_FILE="annual-enterprise-survey-2023-financial-year-provisional.csv"
-OUTPUT_FILE="2023_year_finance.csv"
-```
+### Step 4: Move all CSV/JSON files into json_and_CSV
 
 ##### 1.Extract
 
